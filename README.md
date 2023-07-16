@@ -1,4 +1,4 @@
-# dev-finance$
+# BugEndTecnologia-Finance$
 
 ## Overview
 Aplicação web de controle de finanças desenvolvida para minha mãe alocada pela [BugEnd Tecnologia](https://bugendtecnologia.com.br), utilizando HTML, CSS e JavaScript.
