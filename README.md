@@ -1,7 +1,7 @@
 # dev-finance$
 
 ## Overview
-Aplicação web de controle de finanças desenvolvida durante a MaratonaDiscover da [BugEnd Tecnologia](https://bugendtecnologia.com.br), utilizando HTML, CSS e JavaScript.
+Aplicação web de controle de finanças desenvolvida para minha mãe alocada pela [BugEnd Tecnologia](https://bugendtecnologia.com.br), utilizando HTML, CSS e JavaScript.
 
 ### Features
 - Exibição dos valores de entradas, saídas e total conforme transações
@@ -13,7 +13,7 @@ Aplicação web de controle de finanças desenvolvida durante a MaratonaDiscover
 - Responsividade
 - Modal
  
-## Next Level
+## Roadmap
 - [X] Alteração da cor do card de total conforme saldo
 - [X] Fechar modal ao clicar no overlay
 - [X] Exclusão de todas as transações
