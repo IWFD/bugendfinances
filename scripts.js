@@ -21,10 +21,10 @@ const Modal = {
 
 const Storage = {
   get() {
-    return JSON.parse(localStorage.getItem('PooupeFinanças:transaction')) || [];
+    return JSON.parse(localStorage.getItem('BugEndFinanças:transaction')) || [];
   },
   set(transaction) {
-    localStorage.setItem('PooupeFinanças:transaction', JSON.stringify(transaction));
+    localStorage.setItem('BugEndFinanças:transaction', JSON.stringify(transaction));
   }
 }
 
@@ -77,7 +77,7 @@ const Transaction = {
     const date = new Date();
     const today = `${date.getDate()}-${date.getMonth() < 10? '0'+date.getMonth(): date.getMonth()}-${date.getFullYear()}`;
     const link = document.createElement('a');
-    link.download = `PooupeFinanças-${today}.json`;
+    link.download = `BugEndFinanças-${today}.json`;
     link.href = url;
     link.click();
     link.remove();
@@ -386,7 +386,7 @@ const Utils = {
     const todayName = `${date.getDate()}-${date.getMonth() < 10? '0'+date.getMonth(): date.getMonth()}-${date.getFullYear()}`;
 
     doc.setFontSize(12);
-    doc.text(20, 20, 'PooupeFinanças');
+    doc.text(20, 20, 'BugEndFinanças');
 
     doc.text(168, 20, today);
 
@@ -454,7 +454,7 @@ const Utils = {
     doc.setTextColor(150);
     
 
-    doc.save(`PooupeFinanças-${todayName}.pdf`);
+    doc.save(`BugEndFinanças-${todayName}.pdf`);
   }
 }
 
